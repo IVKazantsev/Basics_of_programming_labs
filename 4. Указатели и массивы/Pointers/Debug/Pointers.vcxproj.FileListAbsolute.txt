@@ -1,0 +1,2 @@
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Практика\3. Домашний номер. Конь и слон\Pointers\Debug\Pointers.exe
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Практика\4. Указатели и массивы\Pointers\Debug\Pointers.exe
