@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\Honor\Desktop\Lectures\Programming\Practice\bit\max\main.c(11): warning C4715: znach: значение возвращается не при всех путях выполнения
+  max.vcxproj -> C:\Users\Honor\Desktop\Lectures\Programming\Practice\bit\max\Debug\max.exe
