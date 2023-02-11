@@ -1,0 +1,66 @@
+#include <stdio.h>
+#define N 7
+
+int main() {
+    int x, y, value = 1, Snake[N][N];
+    for (int i = 0; i < N; i++) { // До главной диагонали включительно
+        if ((i % 2) == 0) { // Чётные диагонали
+            x = 0, y = i;
+            while (y >= 0) {
+                Snake[x][y] = value;
+                x++, y--, value++;
+            }
+        }
+        else { // Нечётные диагонали
+            x = i, y = 0;
+            while (x >= 0) {
+                Snake[x][y] = value;
+                x--, y++, value++;
+            }
+        }
+    }
+    if ((N % 2) == 0) { // Чётный порядок матрицы
+        for (int i = 1; i < N; i++) { // После главной диагонали
+            if ((i % 2) == 0) { // Чётные диагонали
+                x = N - 1, y = i;
+                while (y <= (N - 1)) {
+                    Snake[x][y] = value;
+                    x--, y++, value++;
+
+                }
+            }
+            else { // Нечётные диагонали
+                x = i, y = N - 1;
+                while (x <= (N - 1)) {
+                    Snake[x][y] = value;
+                    x++, y--, value++;
+                }
+            }
+        }
+    }
+    else { // Нечётный порядок матрицы
+        for (int i = 1; i < N; i++) { // После главной диагонали
+            if ((i % 2) == 0) { // Чётные диагонали
+                x = i, y = N - 1;
+                while (x <= (N - 1)) {
+                    Snake[x][y] = value;
+                    x++, y--, value++;
+                }
+            }
+            else { // Нечётные диагонали
+                x = N - 1, y = i;
+                while (y <= (N - 1)) {
+                    Snake[x][y] = value;
+                    x--, y++, value++;
+                }
+            }
+        }
+    }
+
+    for (int i = 0; i < N; i++) { // Вывод матрицы
+        for (int j = 0; j < N; j++)
+            printf("%2d ", Snake[i][j]);
+        printf("\n");
+    }
+    return 0;
+}
