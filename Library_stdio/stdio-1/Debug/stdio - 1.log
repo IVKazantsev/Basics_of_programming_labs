@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Honor\Desktop\Lectures\Programming\Practice\Library_stdio\stdio-1\main.c(10,11): warning C4098: readAndOutputFile: функция типа "void", возвращающая значение
+C:\Users\Honor\Desktop\Lectures\Programming\Practice\Library_stdio\stdio-1\main.c(25,6): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+  stdio - 1.vcxproj -> C:\Users\Honor\Desktop\Lectures\Programming\Practice\Library_stdio\stdio-1\Debug\stdio - 1.exe
