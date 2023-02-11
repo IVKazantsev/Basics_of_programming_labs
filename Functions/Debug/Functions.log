@@ -1,0 +1,8 @@
+﻿  Functions.cpp
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Functions\SomeFunctions.hpp(11,1): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Functions\SomeFunctions.hpp(15,1): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Functions\SomeFunctions.hpp(19,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Functions\Functions.cpp(5,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+  SomeFunctions.cpp
+C:\Users\Honor\Desktop\Лекции\Основы программирования\Functions\SomeFunctions.cpp(1,10): fatal error C1083: Не удается открыть файл включение: SomeFunction.hpp: No such file or directory,
+  Создание кода...
